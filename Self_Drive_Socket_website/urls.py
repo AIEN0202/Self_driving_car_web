@@ -22,4 +22,5 @@ urlpatterns = [
     path('member/', include('member.urls')),
     path('function/', include('function.urls')),
     path('demo/', include('demo.urls')),
+    path('future/', include('future.urls')),
 ]
